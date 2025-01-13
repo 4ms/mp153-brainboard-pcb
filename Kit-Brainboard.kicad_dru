@@ -1,0 +1,15 @@
+(version 1)
+
+(rule "BGA MP1 clearance"
+   (constraint track_width (min 0.09mm) (opt 0.1mm))
+   (constraint clearance (min 0.09mm) (opt 0.1mm))
+   (condition "A.insideCourtyard('U2')"))
+
+(rule "BGA RAM clearance"
+   (constraint track_width (min 0.09mm) (opt 0.1mm))
+   (constraint clearance (min 0.09mm) (opt 0.1mm))
+   (condition "A.insideCourtyard('U14')"))
+
+(rule "gnd zone clearance"
+   (constraint clearance (min 0.5mm) (opt 0.5mm))
+   (condition "A.Name == 'gnd-top'"))
