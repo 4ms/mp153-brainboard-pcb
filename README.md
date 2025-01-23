@@ -23,7 +23,7 @@ Other peripherals are available: SPI, SDMMC, UART, I2C.
 The debug header is J2 and you can select SWD or JTAG. I've had better luck with JTAG, so this is the default,
 but if you need to use SWD then cut the solder jumper JP1 and blob it to the NRST side.
 
-There's an on-board USB jack. A future improvement would be to run this to header pins. It's USB High Speed
-compatible.
+There's an on-board USB jack, and the USB signals are on pins, so you can have a USB High Speed jack on your panel or main board (Thanks Manu!).
+Don't use both at once.
 
 For firmware, look at https://github.com/4ms/mp1-brainboard-demo and also at https://github.com/4ms/stm32mp1-baremetal
