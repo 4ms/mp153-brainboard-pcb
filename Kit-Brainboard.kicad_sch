@@ -21312,6 +21312,435 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x06_Odd_Even"
+				(at 1.27 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x06_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:NetTie_2"
 			(pin_numbers hide)
 			(pin_names
@@ -27269,6 +27698,16 @@
 			(type default)
 		)
 		(uuid "3bc839bf-49ef-4fd4-893d-d2c5803fc4ee")
+	)
+	(wire
+		(pts
+			(xy 115.57 69.85) (xy 123.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c07d73e-b883-4d01-95b2-e096162f958a")
 	)
 	(wire
 		(pts
@@ -33642,6 +34081,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 69.85) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c890ebc3-ce82-4f4c-8ee8-ac7dda2f5f23")
+	)
+	(wire
+		(pts
 			(xy 715.01 166.37) (xy 715.01 165.1)
 		)
 		(stroke
@@ -37070,7 +37519,6 @@
 	)
 	(label "SAI_MCLK"
 		(at 43.18 568.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37081,7 +37529,6 @@
 	)
 	(label "UART_TX"
 		(at 45.72 163.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37092,7 +37539,6 @@
 	)
 	(label "DDR_WEN"
 		(at 678.18 694.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37103,7 +37549,6 @@
 	)
 	(label "DDR_BA2"
 		(at 678.18 679.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37114,7 +37559,6 @@
 	)
 	(label "AUDIO_IN1"
 		(at 321.31 579.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37125,7 +37569,6 @@
 	)
 	(label "A5"
 		(at 651.51 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37136,7 +37579,6 @@
 	)
 	(label "DDR_DQ14"
 		(at 678.18 577.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37147,7 +37589,6 @@
 	)
 	(label "DDR_RESETN"
 		(at 604.52 657.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37158,7 +37599,6 @@
 	)
 	(label "DDR_CKE"
 		(at 678.18 692.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37169,7 +37609,6 @@
 	)
 	(label "ADC-IN5"
 		(at 543.56 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37180,7 +37619,6 @@
 	)
 	(label "D9"
 		(at 166.37 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37191,7 +37629,6 @@
 	)
 	(label "DDR_DQS0_P"
 		(at 523.24 599.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37202,7 +37639,6 @@
 	)
 	(label "DDR_DQS1_P"
 		(at 678.18 580.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37213,7 +37649,6 @@
 	)
 	(label "D4"
 		(at 156.21 372.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37224,7 +37659,6 @@
 	)
 	(label "FLASH_IO3"
 		(at 228.6 436.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37235,7 +37669,6 @@
 	)
 	(label "A4"
 		(at 58.42 331.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37246,7 +37679,6 @@
 	)
 	(label "ADC-IN7"
 		(at 544.83 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37257,7 +37689,6 @@
 	)
 	(label "USB_VBUS"
 		(at 58.42 410.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37268,7 +37699,6 @@
 	)
 	(label "DDR_A3"
 		(at 604.52 594.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37279,7 +37709,6 @@
 	)
 	(label "DDR_DQM0"
 		(at 678.18 615.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37290,7 +37719,6 @@
 	)
 	(label "DDR_DQ13"
 		(at 523.24 622.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37301,7 +37729,6 @@
 	)
 	(label "I2C2_SDA"
 		(at 29.21 627.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37312,7 +37739,6 @@
 	)
 	(label "BOOT0"
 		(at 355.6 443.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37323,7 +37749,6 @@
 	)
 	(label "DDR_DQS1_N"
 		(at 523.24 632.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37334,7 +37759,6 @@
 	)
 	(label "DDR_CLK_N"
 		(at 604.52 581.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37345,7 +37769,6 @@
 	)
 	(label "DDR_A9"
 		(at 604.52 609.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37356,7 +37779,6 @@
 	)
 	(label "D-IN12"
 		(at 77.47 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37367,7 +37789,6 @@
 	)
 	(label "DDR_DQ3"
 		(at 678.18 608.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37378,7 +37799,6 @@
 	)
 	(label "DDR_A0"
 		(at 604.52 586.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37389,7 +37809,6 @@
 	)
 	(label "D10"
 		(at 48.26 344.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37400,7 +37819,6 @@
 	)
 	(label "LIN+"
 		(at 184.15 572.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37411,7 +37829,6 @@
 	)
 	(label "SAI_FS"
 		(at 43.18 558.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37422,7 +37839,6 @@
 	)
 	(label "DDR_BA0"
 		(at 604.52 629.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37433,7 +37849,6 @@
 	)
 	(label "DDR_DQ12"
 		(at 678.18 572.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37444,7 +37859,6 @@
 	)
 	(label "JTDI"
 		(at 153.67 415.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37455,7 +37869,6 @@
 	)
 	(label "AUDIO_OUT2"
 		(at 288.29 636.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37466,7 +37879,6 @@
 	)
 	(label "IN-R"
 		(at 101.6 566.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37477,7 +37889,6 @@
 	)
 	(label "D-IN2"
 		(at 201.93 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37488,7 +37899,6 @@
 	)
 	(label "DDR_DQS0_N"
 		(at 678.18 613.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37499,7 +37909,6 @@
 	)
 	(label "SAI_SD_A"
 		(at 153.67 394.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37510,7 +37919,6 @@
 	)
 	(label "LIN+"
 		(at 101.6 575.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37521,7 +37929,6 @@
 	)
 	(label "FLASH_CLK"
 		(at 280.67 429.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37532,7 +37939,6 @@
 	)
 	(label "DDR_A14"
 		(at 678.18 666.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37543,7 +37949,6 @@
 	)
 	(label "A2"
 		(at 58.42 328.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37554,7 +37959,6 @@
 	)
 	(label "DDR_CASN"
 		(at 604.52 642.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37565,7 +37969,6 @@
 	)
 	(label "D0"
 		(at 48.26 346.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37576,7 +37979,6 @@
 	)
 	(label "DDR_RESETN"
 		(at 678.18 702.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37587,7 +37989,6 @@
 	)
 	(label "SAI_SD_A"
 		(at 43.18 576.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37598,7 +37999,6 @@
 	)
 	(label "DDR_RASN"
 		(at 678.18 684.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37609,7 +38009,6 @@
 	)
 	(label "NRST"
 		(at 116.84 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37620,7 +38019,6 @@
 	)
 	(label "DDR_A4"
 		(at 604.52 596.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37631,7 +38029,6 @@
 	)
 	(label "SAI_SCK"
 		(at 153.67 400.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37642,7 +38039,6 @@
 	)
 	(label "A2"
 		(at 513.08 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37653,7 +38049,6 @@
 	)
 	(label "DDR_A4"
 		(at 678.18 641.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37664,7 +38059,6 @@
 	)
 	(label "FLASH_IO1"
 		(at 203.2 391.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37675,7 +38069,6 @@
 	)
 	(label "FLASH_CLK"
 		(at 203.2 393.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37686,7 +38079,6 @@
 	)
 	(label "DDR_WEN"
 		(at 604.52 650.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37697,7 +38089,6 @@
 	)
 	(label "D-IN10"
 		(at 77.47 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37708,7 +38099,6 @@
 	)
 	(label "DDR_CLK_P"
 		(at 604.52 579.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37719,7 +38109,6 @@
 	)
 	(label "I2C2_SCL"
 		(at 29.21 624.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37730,7 +38119,6 @@
 	)
 	(label "D-IN10"
 		(at 201.93 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37741,7 +38129,6 @@
 	)
 	(label "A8"
 		(at 652.78 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37752,7 +38139,6 @@
 	)
 	(label "A6"
 		(at 651.51 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37763,7 +38149,6 @@
 	)
 	(label "DDR_CLK_P"
 		(at 825.5 654.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37774,7 +38159,6 @@
 	)
 	(label "DDR_CLK_N"
 		(at 678.18 626.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37785,7 +38169,6 @@
 	)
 	(label "DDR_BA1"
 		(at 604.52 632.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37796,7 +38179,6 @@
 	)
 	(label "ADC-IN6"
 		(at 102.87 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37807,7 +38189,6 @@
 	)
 	(label "D17"
 		(at 102.87 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37818,7 +38199,6 @@
 	)
 	(label "RIN-"
 		(at 184.15 638.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37829,7 +38209,6 @@
 	)
 	(label "DDR_DQM1"
 		(at 678.18 585.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37840,7 +38219,6 @@
 	)
 	(label "D-IN12"
 		(at 201.93 201.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37851,7 +38229,6 @@
 	)
 	(label "D1"
 		(at 194.31 358.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37862,7 +38239,6 @@
 	)
 	(label "IN-L"
 		(at 101.6 563.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37873,7 +38249,6 @@
 	)
 	(label "DDR_DQ9"
 		(at 678.18 560.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37884,7 +38259,6 @@
 	)
 	(label "D11"
 		(at 340.36 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37895,7 +38269,6 @@
 	)
 	(label "DDR_DQ15"
 		(at 523.24 627.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37906,7 +38279,6 @@
 	)
 	(label "ADC-IN4"
 		(at 102.87 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37917,7 +38289,6 @@
 	)
 	(label "FLASH_IO0"
 		(at 203.2 388.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37928,7 +38299,6 @@
 	)
 	(label "ADC-IN1_DAC-OUT1"
 		(at 406.4 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37939,7 +38309,6 @@
 	)
 	(label "A6"
 		(at 58.42 367.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37950,7 +38319,6 @@
 	)
 	(label "DDR_DQ1"
 		(at 678.18 598.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37961,7 +38329,6 @@
 	)
 	(label "DDR_DQ15"
 		(at 678.18 567.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37972,7 +38339,6 @@
 	)
 	(label "DDR_DQ12"
 		(at 523.24 619.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37983,7 +38349,6 @@
 	)
 	(label "JTDO_SWO"
 		(at 153.67 417.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37994,7 +38359,6 @@
 	)
 	(label "DDR_BA0"
 		(at 678.18 674.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38005,7 +38369,6 @@
 	)
 	(label "DDR_DQ3"
 		(at 523.24 586.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38016,7 +38379,6 @@
 	)
 	(label "BOOT0"
 		(at 346.71 377.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38027,7 +38389,6 @@
 	)
 	(label "DDR_DQ5"
 		(at 678.18 595.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38038,7 +38399,6 @@
 	)
 	(label "DDR_BA1"
 		(at 678.18 676.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38049,7 +38409,6 @@
 	)
 	(label "D4"
 		(at 166.37 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38060,7 +38419,6 @@
 	)
 	(label "D12"
 		(at 243.84 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38071,7 +38429,6 @@
 	)
 	(label "DDR_DQ7"
 		(at 678.18 603.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38082,7 +38439,6 @@
 	)
 	(label "DDR_DQ13"
 		(at 678.18 570.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38093,7 +38449,6 @@
 	)
 	(label "USB_VBUS_JACK"
 		(at 53.34 201.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38104,7 +38459,6 @@
 	)
 	(label "VCOM"
 		(at 391.16 623.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38115,7 +38469,6 @@
 	)
 	(label "FLASH_IO3"
 		(at 203.2 383.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38126,7 +38479,6 @@
 	)
 	(label "D16"
 		(at 102.87 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38137,7 +38489,6 @@
 	)
 	(label "D-IN1"
 		(at 77.47 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38148,7 +38499,6 @@
 	)
 	(label "D6"
 		(at 48.26 392.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38159,7 +38509,6 @@
 	)
 	(label "NRST_CORE"
 		(at 459.74 374.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38170,7 +38519,6 @@
 	)
 	(label "SAI_SCK"
 		(at 43.18 563.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38181,7 +38529,6 @@
 	)
 	(label "DDR_DQ7"
 		(at 523.24 596.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38192,7 +38539,6 @@
 	)
 	(label "DDR_CSN"
 		(at 678.18 689.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38203,7 +38549,6 @@
 	)
 	(label "ADC-IN7"
 		(at 153.67 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38214,7 +38559,6 @@
 	)
 	(label "DDR_A10"
 		(at 604.52 612.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38225,7 +38569,6 @@
 	)
 	(label "SAI_FS"
 		(at 153.67 397.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38236,7 +38579,6 @@
 	)
 	(label "DDR_ODT"
 		(at 604.52 652.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38247,7 +38589,6 @@
 	)
 	(label "A8"
 		(at 144.78 331.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38258,7 +38599,6 @@
 	)
 	(label "D3"
 		(at 49.53 377.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38269,7 +38609,6 @@
 	)
 	(label "DDR_A2"
 		(at 678.18 636.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38280,7 +38619,6 @@
 	)
 	(label "DDR_CLK_P"
 		(at 678.18 623.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38291,7 +38629,6 @@
 	)
 	(label "D13"
 		(at 77.47 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38302,7 +38639,6 @@
 	)
 	(label "DDR_DQS1_N"
 		(at 678.18 582.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38313,7 +38649,6 @@
 	)
 	(label "D-IN3"
 		(at 29.21 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38324,7 +38659,6 @@
 	)
 	(label "D2"
 		(at 243.84 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38335,7 +38669,6 @@
 	)
 	(label "DDR_CSN"
 		(at 604.52 645.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38346,7 +38679,6 @@
 	)
 	(label "RIN+"
 		(at 101.6 585.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38357,7 +38689,6 @@
 	)
 	(label "D2"
 		(at 48.26 384.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38368,7 +38699,6 @@
 	)
 	(label "LIN-"
 		(at 184.15 577.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38379,7 +38709,6 @@
 	)
 	(label "BOOT2"
 		(at 346.71 382.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38390,7 +38719,6 @@
 	)
 	(label "DDR_A2"
 		(at 604.52 591.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38401,7 +38729,6 @@
 	)
 	(label "D8"
 		(at 166.37 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38412,7 +38739,6 @@
 	)
 	(label "D8"
 		(at 292.1 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38423,7 +38749,6 @@
 	)
 	(label "ADC-IN0_DAC-OUT0"
 		(at 102.87 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38434,7 +38759,6 @@
 	)
 	(label "JTDI"
 		(at 113.03 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38445,7 +38769,6 @@
 	)
 	(label "D19"
 		(at 93.98 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38456,7 +38779,6 @@
 	)
 	(label "DDR_A13"
 		(at 604.52 619.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38467,7 +38789,6 @@
 	)
 	(label "D7"
 		(at 170.18 328.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38478,7 +38799,6 @@
 	)
 	(label "DDR_CLK_N"
 		(at 825.5 659.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38489,7 +38809,6 @@
 	)
 	(label "DDR_DQ5"
 		(at 523.24 591.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38500,7 +38819,6 @@
 	)
 	(label "D11"
 		(at 48.26 369.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38511,7 +38829,6 @@
 	)
 	(label "D0"
 		(at 243.84 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38522,7 +38839,6 @@
 	)
 	(label "DDR_A10"
 		(at 678.18 656.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38533,7 +38849,6 @@
 	)
 	(label "JTRST"
 		(at 153.67 420.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38544,7 +38859,6 @@
 	)
 	(label "DDR_CKE"
 		(at 604.52 647.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38555,7 +38869,6 @@
 	)
 	(label "ADC-IN5"
 		(at 153.67 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38566,7 +38879,6 @@
 	)
 	(label "USB_HS_DM"
 		(at 58.42 417.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38577,7 +38889,6 @@
 	)
 	(label "D7"
 		(at 166.37 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38588,7 +38899,6 @@
 	)
 	(label "FLASH_CS"
 		(at 60.96 382.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38599,7 +38909,6 @@
 	)
 	(label "DDR_DQ10"
 		(at 678.18 575.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38610,7 +38919,6 @@
 	)
 	(label "DDR_A11"
 		(at 604.52 614.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38621,7 +38929,6 @@
 	)
 	(label "BOOT2"
 		(at 381 438.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38632,7 +38939,6 @@
 	)
 	(label "PWR_ON"
 		(at 459.74 346.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38643,7 +38949,6 @@
 	)
 	(label "AUDIO_OUT1"
 		(at 29.21 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38654,7 +38959,6 @@
 	)
 	(label "DDR_DQ14"
 		(at 523.24 624.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38665,7 +38969,6 @@
 	)
 	(label "DDR_DQ0"
 		(at 523.24 579.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38676,7 +38979,6 @@
 	)
 	(label "NRST"
 		(at 431.8 405.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38687,7 +38989,6 @@
 	)
 	(label "DDR_DQM1"
 		(at 523.24 635 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38698,7 +38999,6 @@
 	)
 	(label "DDR_BA2"
 		(at 604.52 635 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38709,7 +39009,6 @@
 	)
 	(label "BOOT0"
 		(at 379.73 411.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38720,7 +39019,6 @@
 	)
 	(label "DDR_DQ6"
 		(at 678.18 590.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38731,7 +39029,6 @@
 	)
 	(label "DDR_A8"
 		(at 678.18 651.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38742,7 +39039,6 @@
 	)
 	(label "A0"
 		(at 505.46 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38753,7 +39049,6 @@
 	)
 	(label "JTMS_SWDIO"
 		(at 113.03 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38764,7 +39059,6 @@
 	)
 	(label "AUDIO_IN2"
 		(at 29.21 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38775,7 +39069,6 @@
 	)
 	(label "FLASH_IO2"
 		(at 203.2 386.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38786,7 +39079,6 @@
 	)
 	(label "DDR_A13"
 		(at 678.18 664.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38797,7 +39089,6 @@
 	)
 	(label "DDR_CASN"
 		(at 678.18 687.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38808,7 +39099,6 @@
 	)
 	(label "DDR_DQ1"
 		(at 523.24 581.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38819,7 +39109,6 @@
 	)
 	(label "ADC-IN6"
 		(at 543.56 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38830,7 +39119,6 @@
 	)
 	(label "DDR_DQS1_P"
 		(at 523.24 629.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38841,7 +39129,6 @@
 	)
 	(label "JTMS_SWDIO"
 		(at 153.67 410.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38852,7 +39139,6 @@
 	)
 	(label "D10"
 		(at 243.84 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38863,7 +39149,6 @@
 	)
 	(label "DDR_A5"
 		(at 678.18 643.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38874,7 +39159,6 @@
 	)
 	(label "D16"
 		(at 154.94 344.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38885,7 +39169,6 @@
 	)
 	(label "ADC-IN9"
 		(at 544.83 255.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38896,7 +39179,6 @@
 	)
 	(label "DDR_DQ6"
 		(at 523.24 594.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38907,7 +39189,6 @@
 	)
 	(label "VCOM"
 		(at 386.08 581.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38918,7 +39199,6 @@
 	)
 	(label "ADC-IN3"
 		(at 406.4 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38929,7 +39209,6 @@
 	)
 	(label "D13"
 		(at 292.1 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38940,7 +39219,6 @@
 	)
 	(label "SAI_FS"
 		(at 43.18 566.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38951,7 +39229,6 @@
 	)
 	(label "ADC-IN0_DAC-OUT0"
 		(at 406.4 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38962,7 +39239,6 @@
 	)
 	(label "I2C2_SDA"
 		(at 43.18 585.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38973,7 +39249,6 @@
 	)
 	(label "DDR_A1"
 		(at 604.52 589.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38984,7 +39259,6 @@
 	)
 	(label "DDR_A1"
 		(at 678.18 633.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38995,7 +39269,6 @@
 	)
 	(label "DEBUG2"
 		(at 45.72 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39006,7 +39279,6 @@
 	)
 	(label "DDR_RESETN"
 		(at 793.75 622.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39017,7 +39289,6 @@
 	)
 	(label "DDR_A14"
 		(at 604.52 622.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39028,7 +39299,6 @@
 	)
 	(label "DEBUG3"
 		(at 45.72 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39039,7 +39309,6 @@
 	)
 	(label "SAI_SD_B"
 		(at 292.1 350.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39050,7 +39319,6 @@
 	)
 	(label "D-IN1"
 		(at 201.93 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39061,7 +39329,6 @@
 	)
 	(label "D-IN0"
 		(at 201.93 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39072,7 +39339,6 @@
 	)
 	(label "FLASH_IO2"
 		(at 228.6 431.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39083,7 +39349,6 @@
 	)
 	(label "AUDIO_OUT1"
 		(at 288.29 575.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39094,7 +39359,6 @@
 	)
 	(label "DDR_A6"
 		(at 678.18 646.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39105,7 +39369,6 @@
 	)
 	(label "SAI_MCLK"
 		(at 43.18 561.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39116,7 +39379,6 @@
 	)
 	(label "D11"
 		(at 19.05 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39127,7 +39389,6 @@
 	)
 	(label "DDR_DQM0"
 		(at 523.24 604.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39138,7 +39399,6 @@
 	)
 	(label "D15"
 		(at 156.21 367.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39149,7 +39409,6 @@
 	)
 	(label "DDR_A12"
 		(at 678.18 661.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39160,7 +39419,6 @@
 	)
 	(label "D18"
 		(at 93.98 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39171,7 +39429,6 @@
 	)
 	(label "A4"
 		(at 651.51 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39182,7 +39439,6 @@
 	)
 	(label "DDR_DQ8"
 		(at 678.18 565.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39193,7 +39449,6 @@
 	)
 	(label "RIN+"
 		(at 184.15 633.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39204,7 +39459,6 @@
 	)
 	(label "FLASH_CS"
 		(at 280.67 425.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39215,7 +39469,6 @@
 	)
 	(label "D1"
 		(at 243.84 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39226,7 +39479,6 @@
 	)
 	(label "VCOM"
 		(at 795.02 516.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39237,7 +39489,6 @@
 	)
 	(label "DDR_DQS0_P"
 		(at 678.18 610.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39248,7 +39499,6 @@
 	)
 	(label "DDR_A7"
 		(at 678.18 648.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39259,7 +39509,6 @@
 	)
 	(label "D5"
 		(at 48.26 351.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39270,7 +39519,6 @@
 	)
 	(label "D5"
 		(at 340.36 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39281,7 +39529,6 @@
 	)
 	(label "JTDO_SWO"
 		(at 113.03 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39292,7 +39539,6 @@
 	)
 	(label "USB_HS_DP"
 		(at 58.42 420.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39303,7 +39549,6 @@
 	)
 	(label "D6"
 		(at 290.83 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39314,7 +39559,6 @@
 	)
 	(label "A9"
 		(at 144.78 323.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39325,7 +39569,6 @@
 	)
 	(label "DFU_BOOT"
 		(at 139.7 387.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39336,7 +39579,6 @@
 	)
 	(label "SAI_SCK"
 		(at 43.18 571.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39347,7 +39589,6 @@
 	)
 	(label "NRST"
 		(at 459.74 361.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39358,7 +39599,6 @@
 	)
 	(label "ADC-IN2"
 		(at 405.13 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39369,7 +39609,6 @@
 	)
 	(label "ADC-IN2"
 		(at 102.87 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39380,7 +39619,6 @@
 	)
 	(label "D15"
 		(at 77.47 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39391,7 +39629,6 @@
 	)
 	(label "ADC-IN9"
 		(at 153.67 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39402,7 +39639,6 @@
 	)
 	(label "DDR_RASN"
 		(at 604.52 640.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39413,7 +39649,6 @@
 	)
 	(label "DDR_DQS0_N"
 		(at 523.24 601.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39424,7 +39659,6 @@
 	)
 	(label "DDR_A3"
 		(at 678.18 638.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39435,7 +39669,6 @@
 	)
 	(label "D18"
 		(at 154.94 349.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39446,7 +39679,6 @@
 	)
 	(label "DDR_DQ2"
 		(at 523.24 584.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39457,7 +39689,6 @@
 	)
 	(label "USB_VBUS"
 		(at 54.61 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39468,7 +39699,6 @@
 	)
 	(label "PWR_ONRST"
 		(at 459.74 353.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39479,7 +39709,6 @@
 	)
 	(label "FLASH_IO0"
 		(at 228.6 421.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39490,7 +39719,6 @@
 	)
 	(label "CODEC_RESET"
 		(at 204.47 355.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39501,7 +39729,6 @@
 	)
 	(label "D3"
 		(at 243.84 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39512,7 +39739,6 @@
 	)
 	(label "D7"
 		(at 341.63 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39523,7 +39749,6 @@
 	)
 	(label "UART_RX"
 		(at 153.67 341.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39534,7 +39759,6 @@
 	)
 	(label "A7"
 		(at 651.51 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39545,7 +39769,6 @@
 	)
 	(label "D5"
 		(at 102.87 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39556,7 +39779,6 @@
 	)
 	(label "D17"
 		(at 154.94 346.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39567,7 +39789,6 @@
 	)
 	(label "DDR_DQ11"
 		(at 523.24 617.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39578,7 +39799,6 @@
 	)
 	(label "DDR_DQ0"
 		(at 678.18 593.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39589,7 +39809,6 @@
 	)
 	(label "JTRST"
 		(at 116.84 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39600,7 +39819,6 @@
 	)
 	(label "A0"
 		(at 58.42 334.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39611,7 +39829,6 @@
 	)
 	(label "D12"
 		(at 194.31 335.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39622,7 +39839,6 @@
 	)
 	(label "DEBUG2"
 		(at 281.94 355.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39633,7 +39849,6 @@
 	)
 	(label "JTCK_SWCLK"
 		(at 113.03 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39644,7 +39859,6 @@
 	)
 	(label "PWR_ON"
 		(at 721.36 271.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39655,7 +39869,6 @@
 	)
 	(label "ADC-IN3"
 		(at 153.67 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39666,7 +39879,6 @@
 	)
 	(label "UART_RX"
 		(at 45.72 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39677,7 +39889,6 @@
 	)
 	(label "D15"
 		(at 293.37 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39688,7 +39899,6 @@
 	)
 	(label "DDR_DQ10"
 		(at 523.24 614.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39699,7 +39909,6 @@
 	)
 	(label "D-IN3"
 		(at 201.93 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39710,7 +39919,6 @@
 	)
 	(label "SAI_SD_B"
 		(at 43.18 574.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39721,7 +39929,6 @@
 	)
 	(label "DDR_ODT"
 		(at 678.18 697.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39732,7 +39939,6 @@
 	)
 	(label "DDR_DQ9"
 		(at 523.24 612.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39743,7 +39949,6 @@
 	)
 	(label "USB_HS_DP"
 		(at 87.63 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39754,7 +39959,6 @@
 	)
 	(label "DDR_A0"
 		(at 678.18 631.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39765,7 +39969,6 @@
 	)
 	(label "PWR_ONRST"
 		(at 723.9 356.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39776,7 +39979,6 @@
 	)
 	(label "DDR_DQ8"
 		(at 523.24 609.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39787,7 +39989,6 @@
 	)
 	(label "DDR_DQ4"
 		(at 678.18 605.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39798,7 +39999,6 @@
 	)
 	(label "USB_VBUS_JACK"
 		(at 31.75 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39809,7 +40009,6 @@
 	)
 	(label "PWR_ONRST"
 		(at 723.9 313.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39820,7 +40019,6 @@
 	)
 	(label "USB_HS_DM"
 		(at 87.63 227.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39831,7 +40029,6 @@
 	)
 	(label "DEBUG3"
 		(at 212.09 353.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39842,7 +40039,6 @@
 	)
 	(label "FLASH_IO1"
 		(at 228.6 426.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39853,7 +40049,6 @@
 	)
 	(label "D13"
 		(at 156.21 369.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39864,7 +40059,6 @@
 	)
 	(label "UART_TX"
 		(at 153.67 339.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39875,7 +40069,6 @@
 	)
 	(label "CODEC_RESET"
 		(at 43.18 593.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39886,7 +40079,6 @@
 	)
 	(label "D9"
 		(at 154.94 354.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39897,7 +40089,6 @@
 	)
 	(label "DDR_A7"
 		(at 604.52 604.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39908,7 +40099,6 @@
 	)
 	(label "DDR_A6"
 		(at 604.52 601.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39919,7 +40109,6 @@
 	)
 	(label "I2C2_SCL"
 		(at 43.18 582.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39930,7 +40119,6 @@
 	)
 	(label "D19"
 		(at 154.94 351.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39941,7 +40129,6 @@
 	)
 	(label "IN-L"
 		(at 444.5 579.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39952,7 +40139,6 @@
 	)
 	(label "D6"
 		(at 166.37 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39963,7 +40149,6 @@
 	)
 	(label "DDR_A11"
 		(at 678.18 659.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39974,7 +40159,6 @@
 	)
 	(label "DDR_DQ2"
 		(at 678.18 600.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39985,7 +40169,6 @@
 	)
 	(label "DDR_DQ11"
 		(at 678.18 562.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39996,7 +40179,6 @@
 	)
 	(label "ADC-IN4"
 		(at 543.56 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40007,7 +40189,6 @@
 	)
 	(label "ADC-IN1_DAC-OUT1"
 		(at 153.67 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40018,7 +40199,6 @@
 	)
 	(label "A5"
 		(at 58.42 341.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40029,7 +40209,6 @@
 	)
 	(label "A3"
 		(at 58.42 339.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40040,7 +40219,6 @@
 	)
 	(label "D8"
 		(at 170.18 326.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40051,7 +40229,6 @@
 	)
 	(label "DDR_DQ4"
 		(at 523.24 589.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40062,7 +40239,6 @@
 	)
 	(label "JTCK_SWCLK"
 		(at 153.67 412.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40073,7 +40249,6 @@
 	)
 	(label "I2C2_SCL"
 		(at 139.7 384.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40084,7 +40259,6 @@
 	)
 	(label "USB_RREF"
 		(at 58.42 422.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40095,7 +40269,6 @@
 	)
 	(label "A9"
 		(at 652.78 257.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40106,7 +40279,6 @@
 	)
 	(label "ADC-IN8"
 		(at 544.83 215.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40117,7 +40289,6 @@
 	)
 	(label "A3"
 		(at 513.08 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40128,7 +40299,6 @@
 	)
 	(label "DDR_CKE"
 		(at 783.59 622.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40139,7 +40309,6 @@
 	)
 	(label "SAI_MCLK"
 		(at 203.2 325.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40150,7 +40319,6 @@
 	)
 	(label "RIN-"
 		(at 101.6 588.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40161,7 +40329,6 @@
 	)
 	(label "AUDIO_IN2"
 		(at 320.04 621.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40172,7 +40339,6 @@
 	)
 	(label "DDR_A9"
 		(at 678.18 654.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40183,7 +40349,6 @@
 	)
 	(label "A7"
 		(at 144.78 336.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40194,7 +40359,6 @@
 	)
 	(label "DDR_A5"
 		(at 604.52 599.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40205,7 +40369,6 @@
 	)
 	(label "IN-R"
 		(at 445.77 621.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40216,7 +40379,6 @@
 	)
 	(label "D14"
 		(at 340.36 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40227,7 +40389,6 @@
 	)
 	(label "I2C2_SDA"
 		(at 287.02 363.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40238,7 +40399,6 @@
 	)
 	(label "AUDIO_IN1"
 		(at 29.21 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40249,7 +40409,6 @@
 	)
 	(label "USB_VBUS_JACK"
 		(at 48.26 217.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40260,7 +40419,6 @@
 	)
 	(label "AUDIO_OUT2"
 		(at 29.21 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40271,7 +40429,6 @@
 	)
 	(label "D-IN0"
 		(at 77.47 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40282,7 +40439,6 @@
 	)
 	(label "A1"
 		(at 505.46 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40293,7 +40449,6 @@
 	)
 	(label "D-IN2"
 		(at 77.47 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40304,7 +40459,6 @@
 	)
 	(label "D14"
 		(at 19.05 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40315,7 +40469,6 @@
 	)
 	(label "ADC-IN8"
 		(at 102.87 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40326,7 +40479,6 @@
 	)
 	(label "D14"
 		(at 48.26 326.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40337,7 +40489,6 @@
 	)
 	(label "A1"
 		(at 58.42 336.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40348,7 +40499,6 @@
 	)
 	(label "DDR_A8"
 		(at 604.52 607.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40359,7 +40509,6 @@
 	)
 	(label "DDR_A12"
 		(at 604.52 617.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40370,7 +40519,6 @@
 	)
 	(label "LIN-"
 		(at 101.6 577.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40381,7 +40529,6 @@
 	)
 	(label "VCOM"
 		(at 114.3 568.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40392,7 +40539,6 @@
 	)
 	(label "DFU_BOOT"
 		(at 341.63 408.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40400,6 +40546,94 @@
 			(justify left bottom)
 		)
 		(uuid "fe7301da-a100-41df-9c24-dbeb252ed741")
+	)
+	(global_label "USB_DP"
+		(shape input)
+		(at 71.12 207.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "112f41db-dd22-4252-a4c3-20fc9037347a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 196.7072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP"
+		(shape input)
+		(at 115.57 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35b22ced-8012-4dd8-9369-1e2bb1dcc600")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.2672 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DM"
+		(shape input)
+		(at 71.12 227.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82535d50-1796-46b3-9258-27992cfb7dd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 237.8142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DM"
+		(shape input)
+		(at 144.78 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc68cab7-90e9-4478-9420-132aaccc0ad8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.2642 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "4ms_Power_Symbol:GNDA")
@@ -41345,133 +41579,6 @@
 				(path "/64ec1a6b-f4f9-4414-abbd-a05816451f08"
 					(reference "U10")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4ms_Connector:Pins_02x05_P2.54mm_SMT")
-		(at 129.54 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06422bb9-e4ef-4f59-a357-109a25fa2117")
-		(property "Reference" "JD1"
-			(at 129.54 52.1802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pins_02x05_P2.54mm_SMT"
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
-			(at 131.445 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tsm.pdf"
-			(at 134.62 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "Header 2x5 Pins, Pitch=2.54mm, Pin Height 5.84mm, Vertical, SMT"
-			(at 130.81 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 128.905 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "TSM-105-01-F-DV"
-			(at 128.27 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Production Stage" "AB"
-			(at 129.54 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be8da2ea-6a9a-40ff-89cf-e8319a2876fd")
-		)
-		(pin "10"
-			(uuid "27b7427a-6f75-4691-84b8-dfdb739fcf07")
-		)
-		(pin "2"
-			(uuid "6f79316f-f9b5-4b1f-886b-a2d93166820d")
-		)
-		(pin "3"
-			(uuid "2ed07f73-1666-4089-9107-5925d773c6fc")
-		)
-		(pin "4"
-			(uuid "c080a52f-7022-4580-ba72-731ad5d5288d")
-		)
-		(pin "5"
-			(uuid "abf2341c-3ed6-4ebb-aabb-62bfee36be44")
-		)
-		(pin "6"
-			(uuid "c36c3718-41a4-4a22-bcfb-9bda7ddbf999")
-		)
-		(pin "7"
-			(uuid "f49550d2-8f92-4154-9132-5fa1087f465a")
-		)
-		(pin "8"
-			(uuid "98596bc3-92e5-4561-91a1-17af4dde2222")
-		)
-		(pin "9"
-			(uuid "a11d6658-78e1-426d-bfbe-cadd14bd1c3b")
-		)
-		(instances
-			(project "Kit-Brainboard"
-				(path "/64ec1a6b-f4f9-4414-abbd-a05816451f08"
-					(reference "JD1")
-					(unit 1)
 				)
 			)
 		)
@@ -52118,6 +52225,131 @@
 				)
 				(path "/f9525aea-1b44-4682-941c-ef844c707ab5/b342145b-f47d-4d55-a06a-d8b64a3dc061"
 					(reference "R173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 128.27 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "312697c8-6aa4-4932-a4d2-ad17c080b1b1")
+		(property "Reference" "JD1"
+			(at 129.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 129.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "a08b660f-9d09-4bf8-adbc-c510d37a3198")
+		)
+		(pin "6"
+			(uuid "a22afed1-bdb0-4b4f-91a4-4ce8fc811c54")
+		)
+		(pin "1"
+			(uuid "52dd228e-9af0-4d14-8672-7ffbf46c45ab")
+		)
+		(pin "8"
+			(uuid "289ddae2-ed30-401e-9998-a3fb7e4a6c2a")
+		)
+		(pin "3"
+			(uuid "b77efd79-203b-430a-acf4-9d3a6a20ea7c")
+		)
+		(pin "2"
+			(uuid "dd28f105-00e6-4af9-a20c-5c663a10286a")
+		)
+		(pin "9"
+			(uuid "56ce1ca7-4ec0-4003-bced-0d3ff6803bf1")
+		)
+		(pin "4"
+			(uuid "e1ea47e9-d4ee-4582-8117-4f43189d8750")
+		)
+		(pin "12"
+			(uuid "29187229-4b1c-408e-b073-ef56f8db5c82")
+		)
+		(pin "11"
+			(uuid "97ba3fc4-98ad-4e18-9532-d08d8096e22e")
+		)
+		(pin "10"
+			(uuid "0fdefb04-c1ab-424b-b749-19c7581fd51d")
+		)
+		(pin "5"
+			(uuid "861968ff-67dc-4e21-9813-39824d08700e")
+		)
+		(instances
+			(project ""
+				(path "/64ec1a6b-f4f9-4414-abbd-a05816451f08"
+					(reference "JD1")
 					(unit 1)
 				)
 			)
@@ -80311,7 +80543,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 68.58 203.2 90)
+			(at 82.042 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)

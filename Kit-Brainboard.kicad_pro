@@ -64,13 +64,6 @@
         "clearance|192270000|82750000|03e65bf0-ba86-4c89-8d53-15beb8e7917b|5b915a8c-db45-468f-b428-ddb3c41dc53a",
         "clearance|192580000|82490000|3746b42d-eb1c-4842-afd1-068ebd6b53a3|b172b721-6db2-4cd4-92b8-aa23c8b909a0",
         "clearance|192580000|82750000|3746b42d-eb1c-4842-afd1-068ebd6b53a3|5b915a8c-db45-468f-b428-ddb3c41dc53a",
-        "courtyards_overlap|203939601|76130999|573db01a-203e-4cec-ab96-0b39fe921574|a304b454-9370-4d6d-8281-780db4ae0674",
-        "courtyards_overlap|207090001|114380001|b41fb280-987f-4f52-bc00-e68682afa891|fbcb224d-6a75-4da3-9a7f-bc1433e050f0",
-        "courtyards_overlap|207090001|114879999|b41fb280-987f-4f52-bc00-e68682afa891|fbcb224d-6a75-4da3-9a7f-bc1433e050f0",
-        "courtyards_overlap|213939599|75880001|573db01a-203e-4cec-ab96-0b39fe921574|a304b454-9370-4d6d-8281-780db4ae0674",
-        "lib_footprint_mismatch|198883524|84812000|bf6cdcf0-d768-4289-bbf6-c74cd6a872a7|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|207840000|114730000|fbcb224d-6a75-4da3-9a7f-bc1433e050f0|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|227816521|76239999|96b4f17f-7c50-42f1-8151-9b152695dbdb|00000000-0000-0000-0000-000000000000",
         "solder_mask_bridge|192270000|82490000|b172b721-6db2-4cd4-92b8-aa23c8b909a0|03e65bf0-ba86-4c89-8d53-15beb8e7917b",
         "solder_mask_bridge|192270000|82750000|5b915a8c-db45-468f-b428-ddb3c41dc53a|03e65bf0-ba86-4c89-8d53-15beb8e7917b",
         "solder_mask_bridge|192580000|82490000|b172b721-6db2-4cd4-92b8-aa23c8b909a0|3746b42d-eb1c-4842-afd1-068ebd6b53a3",
@@ -153,7 +146,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -822,11 +815,125 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alt JLCPCB ID",
+          "name": "Alt JLCPCB ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Display",
+          "name": "Display",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Display 2",
+          "name": "Display 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB ID",
+          "name": "JLCPCB ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer 2",
+          "name": "Manufacturer 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer 3",
+          "name": "Manufacturer 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer 4",
+          "name": "Manufacturer 4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer2",
+          "name": "Manufacturer2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number 2",
+          "name": "Part Number 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number 3",
+          "name": "Part Number 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number 4",
+          "name": "Part Number 4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number2",
+          "name": "Part Number2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Production Stage",
+          "name": "Production Stage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Specifications",
+          "name": "Specifications",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
